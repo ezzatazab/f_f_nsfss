@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-17 04:28:22.560772",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "cheq_number",
+  "column_break_xnmi",
+  "cheq_image",
+  "section_break_bjqj",
+  "cheq",
+  "collection_tab",
+  "collection_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "cheq_number",
+   "fieldtype": "Data",
+   "label": "Cheq Number"
+  },
+  {
+   "fieldname": "collection_tab",
+   "fieldtype": "Tab Break",
+   "label": "Collection"
+  },
+  {
+   "fieldname": "collection_date",
+   "fieldtype": "Date",
+   "label": "Collection Date"
+  },
+  {
+   "fieldname": "column_break_xnmi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cheq_image",
+   "fieldtype": "Attach Image",
+   "label": "Cheq Image",
+   "options": "cheq_image"
+  },
+  {
+   "fieldname": "cheq",
+   "fieldtype": "Image",
+   "label": "Cheq",
+   "options": "cheq_image"
+  },
+  {
+   "fieldname": "section_break_bjqj",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-17 04:37:09.063223",
+ "modified_by": "Administrator",
+ "module": "f_f_nsfss",
+ "name": "Cheq",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
